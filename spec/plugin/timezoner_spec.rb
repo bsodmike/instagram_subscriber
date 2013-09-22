@@ -1,9 +1,9 @@
 # encoding: utf-8
 require 'spec_helper'
 
-describe Timezoner do
+describe InstaSubscriber do
   it "should be a Module" do
-    expect(Timezoner.is_a?(Module)).to be
+    expect(InstaSubscriber.is_a?(Module)).to be
   end
 
   it "should ..." do

@@ -1,5 +1,5 @@
-module Timezoner
+module InstaSubscriber
   class Engine < ::Rails::Engine
-    isolate_namespace Timezoner
+    isolate_namespace InstaSubscriber
   end
 end

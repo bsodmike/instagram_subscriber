@@ -7,7 +7,7 @@ require "timezoner/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
   spec.name        = "timezoner"
-  spec.version     = Timezoner::VERSION
+  spec.version     = InstaSubscriber::VERSION
   spec.authors     = ["Michael de Silva"]
   spec.email       = ["michael@mwdesilva.com"]
   spec.homepage    = "http://mwdesilva.com"
