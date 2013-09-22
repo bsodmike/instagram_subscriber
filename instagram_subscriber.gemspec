@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "timezoner/version"
+require "instagram_subscriber/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Michael de Silva"]
   spec.email       = ["michael@mwdesilva.com"]
   spec.homepage    = "http://mwdesilva.com"
-  spec.summary     = "Easy Timezone handling in Rails."
+  spec.summary     = "PENDING."
   spec.description = spec.summary
   spec.license     = "MIT"
 
