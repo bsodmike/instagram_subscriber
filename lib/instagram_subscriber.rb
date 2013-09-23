@@ -1,4 +1,4 @@
-require "timezoner/engine"
+require "instagram_subscriber/engine"
 
 module InstaSubscriber
 end

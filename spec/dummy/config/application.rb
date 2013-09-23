@@ -8,7 +8,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "timezoner"
+require "instagram_subscriber"
 
 module Dummy
   class Application < Rails::Application

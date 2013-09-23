@@ -6,7 +6,7 @@ require "instagram_subscriber/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = "timezoner"
+  spec.name        = "instagram_subscriber"
   spec.version     = InstaSubscriber::VERSION
   spec.authors     = ["Michael de Silva"]
   spec.email       = ["michael@mwdesilva.com"]
