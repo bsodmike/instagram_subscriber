@@ -28,7 +28,27 @@ module InstaSubscriber
       define_predicate_for name
     end
 
+    # @macro [attach] add_setting
+    #   @attribute $1
+    #
+    # @macro [attach] define_reader
+    #   @attribute $1
+
+    # @macro add_setting
+    # The `client_id` for Instagram.
     add_setting :client_id
+
+    # @macro add_setting
+    # The `client_secret` for Instagram.
+    add_setting :client_secret
+
+    # @macro add_setting
+    # The `callback_url` for Instagram's Real-time API.
+    add_setting :callback_url
+
+    # @macro define_reader
+    # Returns Instagram's subscription API url.
+    define_reader :subscriptions_api_url
 
     def add_setting(name, opts={})
       default = opts.delete(:default)
@@ -39,7 +59,10 @@ module InstaSubscriber
     end
 
     def initialize
+      @subscriptions_api_url = 'https://api.instagram.com/v1/subscriptions/'
       @client_id = nil
+      @client_secret = nil
+      @callback_url = 'http://your-callback.com/url/'
     end
 
   end

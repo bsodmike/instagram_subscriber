@@ -4,6 +4,7 @@ require "instagram_subscriber/engine"
 module InstaSubscriber
   autoload :Errors, 'instagram_subscriber/errors'
   autoload :Configuration, 'instagram_subscriber/configuration'
+  autoload :Subscription, 'instagram_subscriber/subscription'
 
   class << self
     # Yields the global configuration to a block.
