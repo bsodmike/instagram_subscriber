@@ -2,7 +2,7 @@
 
 module InstaSubscriber
   module Errors
-    # A general CurrencyParser exception.
+    # A general InstaSubscriber exception.
     class Error < StandardError
       def initialize(msg = "Boom Shakalaka!! You've triggered a #{self}")
         super

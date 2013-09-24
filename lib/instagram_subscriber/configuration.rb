@@ -1,6 +1,8 @@
 # encoding: utf-8
 
 module InstaSubscriber
+
+  # Stores runtime configuration information.
   class Configuration
 
     # @private
