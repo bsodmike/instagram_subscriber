@@ -62,7 +62,8 @@ module InstaSubscriber
       @subscriptions_api_url = 'https://api.instagram.com/v1/subscriptions/'
       @client_id = nil
       @client_secret = nil
-      @callback_url = 'http://your-callback.com/url/'
+      @callback_route = "instagram/subscriptions/callback"
+      @callback_url = "http://your-callback.com/#{@callback_route}/"
     end
 
   end
