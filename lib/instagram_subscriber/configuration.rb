@@ -50,6 +50,10 @@ module InstaSubscriber
     # Returns Instagram's subscription API url.
     define_reader :subscriptions_api_url
 
+    # @macro define_reader
+    # Returns the callback route.
+    define_reader :callback_route
+
     def add_setting(name, opts={})
       default = opts.delete(:default)
       (class << self; self; end).class_eval do
